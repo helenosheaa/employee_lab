@@ -27,6 +27,7 @@ public abstract class Employee {
     }
 
     public void raiseSalary(double increment){
+        if(increment > 0)
         this.salary = this.salary + increment;
     }
 
@@ -35,4 +36,7 @@ public abstract class Employee {
     }
 
 
+    public void setName(String name) {
+        this.name = name;
+    }
 }
