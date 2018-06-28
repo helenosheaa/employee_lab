@@ -13,11 +13,18 @@ public abstract class Employee {
     }
 
 
-    public abstract String getName(String name);
+    public String getName(){
+        return this.name;
+    };
 
 
-    public abstract String getNin(String nin);
+    public String getNin(){
+        return this.nin;
+    };
 
+    public double getSalary(){
+        return this.salary;
+    };
 
     public double raiseSalary(double increment){
         return this.salary + increment;

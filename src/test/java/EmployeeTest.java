@@ -7,8 +7,4 @@ public class EmployeeTest {
 
     Employee employee;
 
-   @Test
-    public void canGetName(){
-       assertEquals("Jesus", employee.putName());
-   }
 }
