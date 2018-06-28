@@ -15,19 +15,19 @@ public abstract class Employee {
 
     public String getName(){
         return this.name;
-    };
+    }
 
 
     public String getNin(){
         return this.nin;
-    };
+    }
 
     public double getSalary(){
         return this.salary;
-    };
+    }
 
-    public double raiseSalary(double increment){
-        return this.salary + increment;
+    public void raiseSalary(double increment){
+        this.salary = this.salary + increment;
     }
 
     public double payBonus(){
